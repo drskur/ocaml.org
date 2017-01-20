@@ -4,13 +4,8 @@
 
 # OCaml 프로그램의 구조
 
-Now we're going to take some time out to take a high-level look at some
-real OCaml programs. I want to teach you about local and global
-definitions, when to use `;;` vs. `;`, modules, nested functions, and
-references. For this we're going to look at a lot of OCaml concepts
-which won't yet make sense because we haven't seen them before. Don't
-worry about the details for the moment. Concentrate instead on the
-overall shape of the programs and the features which I'll point out.
+이제 OCaml 프로그램을 자세히 살펴보기로 합니다. 전역 / 지역 변수, 언제 `;;` 혹은 `;` 를 사용하는지, 모듈, 중첩 함수, 참조에 대해서 가르치려 합니다.
+전에 보지 못했기 때문에 아직은 이해할 수 없는, OCaml 개념들에 대해서 살펴볼 것입니다. 순간순간의 세부 내용에 대해서는 걱정하지 않길 바랍니다. 프로그램의 전반적인 형태와 지적하는 기능에 대해서 집중하세요.
 
 ##  지역 "변수(variables)" (*really* local expressions)
 Let's take the `average` function and add a local variable in C.
